@@ -4,12 +4,13 @@ version = "0.1"
 description = "ConfUI Advanced Easy Installer"
 readme = "README.md"
 authors = [{name = "Michal Sestrienka"}]
-license = "Apache-2.0"
+license = {file = "LICENSE"}
 requires-python = ">=3.10"
 classifiers = []
 dependencies = [
     "click",
     "aiohttp>=3.9.0",
+    "nbaio @ git+https://github.com/mse11/nbaio.git@main"
 ]
 
 [build-system]
